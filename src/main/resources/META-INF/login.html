@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <div class="container d-flex justify-content-center align-items-center" style="height: 100vh;">
+    <div class="card" style="width: 20rem;">
+         <div class="card-body">
+             <h5 class="card-title text-center">Login</h5>
+            <form id="loginForm">
+                        <div class="mb-3">
+                    <label for="username" class="form-label">Usuário</label>
+                           <input type="text" class="form-control" id="username" placeholder="Digite seu nome de usuário" required>
+                </div>
+                <div class="mb-3">
+                         <label for="password" class="form-label">Senha</label>
+                    <input type="password" class="form-control" id="password" placeholder="Digite sua senha" required>
+                </div>
+                  <button type="submit" class="btn btn-primary w-100">Entrar</button>
+             </form>
+              </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+    document.getElementById('loginForm').addEventListener('submit', function(event) {
+        event.preventDefault();
+
+         const username = document.getElementById('username').value;
+          const password = document.getElementById('password').value;
+
+        if (username === "usuario" && password === "senha") {
+              window.location.href = "http://localhost:63342/Nova%20pasta%20(4)/Desafio-adx/src/main/resources/META-INF/index.html?_ijt=drrndj2v5bnsaim8r241pqkht6&_ij_reload=RELOAD_ON_SAVE"; // O link para o qual deseja redirecionar
+        } else {
+            alert("Usuário ou senha inválidos!");
+        }
+    });
+  </script>
+
+</body>
+</html>
