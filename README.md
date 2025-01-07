@@ -38,7 +38,23 @@ Antes de executar o sistema, você precisará ter as seguintes ferramentas insta
 3. **Maven**: Para gerenciar e compilar o projeto.
 4. **IDE**: IntelliJ IDEA, Eclipse ou outra de sua preferência.
 
+
 ---
+---
+
+## 💻 Projeto em Execução
+
+Projeto rodando com integração ao banco de dados e funcionalidade no site.
+
+---
+
+
+
+https://github.com/user-attachments/assets/f5221b62-5576-4c59-86cf-2311296fa705
+
+
+
+
 
 ## ⚙️ Configuração do Ambiente
 Siga os passos abaixo para configurar e executar o projeto no seu ambiente local:
@@ -48,6 +64,7 @@ Clone este repositório em sua máquina usando o comando:
 ```bash
 git clone https://github.com/seu-usuario/sistema-filmes.git
 ```
+---
 
 
 ---
